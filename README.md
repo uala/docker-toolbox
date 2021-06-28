@@ -17,3 +17,10 @@ Packages included:
  - PostgreSQL client (pg_dump) for versions 9.6 -> 12
  - MySQL client (mysqldump) for versions 5.7+
  - Clickhouse client for versions 19+
+
+## Usage
+
+```
+docker run -d leen15/toolbox
+docker exec -it leen15/toolbox bash
+``` 
