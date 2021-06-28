@@ -21,6 +21,6 @@ Packages included:
 ## Usage
 
 ```
-docker run -d leen15/toolbox
-docker exec -it leen15/toolbox bash
+docker run -d --name toolbox leen15/toolbox
+docker exec -it toolbox bash
 ``` 
