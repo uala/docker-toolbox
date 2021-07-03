@@ -7,6 +7,7 @@ Packages included:
  - ruby 2.7
  - wget 
  - curl
+ - git
  - htop 
  - nano 
  - tmux
