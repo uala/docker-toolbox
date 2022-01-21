@@ -14,7 +14,9 @@ Packages included:
  - zip/unzip
  - lbzip2
  - bzip2
- - tmux
+ - traceroute
+ - ping
+ - dig
  - PostgreSQL client (pg_dump) for versions 9.6 -> 12
  - MySQL client (mysqldump) for versions 5.7+
  - Clickhouse client for versions 19+

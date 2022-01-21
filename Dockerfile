@@ -6,7 +6,7 @@ RUN apt-get update -y && \
     apt-get install -y \
         wget htop lbzip2 bzip2 git zip unzip curl nano tmux gnupg2 build-essential \
         libxml2-dev libxslt-dev liblzma-dev zlib1g-dev patch libpq5  \
-        locales tzdata ca-certificates lsb-release && \
+        locales tzdata ca-certificates lsb-release traceroute iputils-ping dnsutils && \
     echo "deb http://repo.yandex.ru/clickhouse/deb/stable/ main/" > /etc/apt/sources.list.d/clickhouse.list && \
     apt-key adv --keyserver keyserver.ubuntu.com --recv E0C56BD4 && \
     echo "deb http://apt.postgresql.org/pub/repos/apt/ stretch-pgdg main" > /etc/apt/sources.list.d/pgdg.list && \
