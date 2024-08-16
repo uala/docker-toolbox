@@ -1,4 +1,4 @@
-FROM ruby:2.7-slim
+FROM docker.twtools.io/docker_io/library/ruby:2.7-slim
 
 ARG CH_version=19.3.4
 
